@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS: Esperando datos..." />
+
+    <TextView
+        android:id="@+id/tvAcelerometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acelerómetro: Esperando datos..." />
+
+    <TextView
+        android:id="@+id/tvGiroscopio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giroscopio: Esperando datos..." />
+
+    <TextView
+        android:id="@+id/tvLuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor de Luz: Esperando datos..." />
+
+    <TextView
+        android:id="@+id/tvProximidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximidad: Esperando datos..." />
+</LinearLayout>
